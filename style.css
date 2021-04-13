@@ -67,19 +67,18 @@ p{
 	color:  hsl(214, 17%, 71%);
 	}
 	
-	.post img:last-child{
+	.post i{
 		float:right;
 		position: relative;
-		
 		top:-80px;
 		background-color: hsl(210, 46%, 95%);
-	border-radius:50px;
-	width:40px;
+	border-radius:90px;
+	height: 40px;
+width: 40px;
 	padding:12px;
 	}
 	
-	.post img:last-child:hover{
+	.post i:hover{
 		background-color: hsl(217, 19%, 35%);
 		color:white;
-		
 	}
