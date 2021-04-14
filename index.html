@@ -22,7 +22,8 @@
   to help you make any room feel complete.</p>
   <div class="avatar"><img alt="avatar" src="avatar-michelle.jpg"><strong>Michelle Appleton</strong> 
   <p>  28 Jun 2020</p></div>
-<div id="myBtn" onclick="myFunction()" ><i class="fas fa-share fa-lg"></i></div>
+  
+<div id="myBtn" onmouseenter="myFunction()" ><i class="fas fa-share fa-lg"></i></div>
 <div id="pop" class="pop-content"><span>share</span>
 <a href="#"><img alt="Facebook" src="icon-facebook.svg"></a>
 <a href="#"><img alt="Twitter" src="icon-twitter.svg"></a>
@@ -42,6 +43,13 @@ function myFunction() {
     x.style.display = "none";
   }
 }
+const mediaQueryLg = window.matchMedia('(max-width: 900px)');
+if (mediaQueryLg.matches) {
+x.style.display
+
+}
+
+
 
   </script>
   </body>
