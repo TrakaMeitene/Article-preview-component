@@ -12,7 +12,7 @@ height:100vh;
 margin:0;
 }
 .flexbox{
-	width:40%;
+	width:45%;
 	height:300px;
 	border-radius:10px;
 	
@@ -26,7 +26,7 @@ margin:0;
 }
 
 .post{
-width:60%;
+width:450px;
 height:300px;
 border-top-right-radius:10px;
 border-bottom-right-radius:10px;
@@ -59,6 +59,9 @@ p{
 		color:hsl(217, 19%, 35%);
 	
 	}
+	.avatar{
+		
+	height:50px;}
 	.avatar p{
 		font-size:13px;
 		margin-left:52px;
@@ -70,7 +73,7 @@ p{
 	.post i{
 		float:right;
 		position: relative;
-		top:-80px;
+		top:-30px;
 		background-color: hsl(210, 46%, 95%);
 	border-radius:90px;
 	height: 35px;
@@ -104,7 +107,7 @@ width: 35px;
 	font-weight:500;
 	font-size:13px;
 text-align:center;
-top:-180px;
+top:-125px;
 left:220px;
 
 }
@@ -129,3 +132,12 @@ width:20px;}
 	height:50px;
 	  background-color:hsl(217, 19%, 35%);
 clip-path: polygon(52% 25px, 88.00% 48.00%, 54% 94%, 8px 50%);}
+
+@media(min-width:100px){
+	.flexbox{
+	width:75%;
+	height:300px;
+	margin:auto;
+	justify-content:center;
+}
+}
