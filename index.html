@@ -21,10 +21,29 @@
   it felt slightly bare and uninviting. I’ve got some simple tips 
   to help you make any room feel complete.</p>
   <div class="avatar"><img alt="avatar" src="avatar-michelle.jpg"><strong>Michelle Appleton</strong> 
-  <p>  28 Jun 2020</p>
-<i class="fas fa-share fa-lg"></i></div>
+  <p>  28 Jun 2020</p></div>
+<div id="myBtn" onclick="myFunction()" ><i class="fas fa-share fa-lg"></i></div>
+<div id="pop" class="pop-content"><span>share</span>
+<a href="#"><img alt="Facebook" src="icon-facebook.svg"></a>
+<a href="#"><img alt="Twitter" src="icon-twitter.svg"></a>
+<a href="#"><img alt="Pinterest" src="icon-pinterest.svg"></a>
+<div class="clip"></div>
+</div>
+
   
   </div>
-  </div>
+ </div>
+  <script>
+function myFunction() {
+  var x = document.getElementById("pop");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+  </script>
   </body>
+  
   </html>

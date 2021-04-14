@@ -73,12 +73,59 @@ p{
 		top:-80px;
 		background-color: hsl(210, 46%, 95%);
 	border-radius:90px;
-	height: 40px;
-width: 40px;
-	padding:12px;
+	height: 35px;
+width: 35px;
+	padding:8px;
+	 cursor: pointer;
 	}
 	
 	.post i:hover{
 		background-color: hsl(217, 19%, 35%);
 		color:white;
 	}
+.show{
+	display:block;
+	  background-color:hsl(217, 19%, 35%);
+  width:200px;
+  border-radius:20px;
+  height:50px;}
+
+.pop-content{
+	  display: none;
+  position: relative;
+  background-color:hsl(217, 19%, 35%);
+  width:270px;
+  border-radius:10px;
+  height:60px;
+   
+	  letter-spacing: 4px;
+	  text-transform:uppercase;
+		color:  hsl(214, 17%, 61%);
+	font-weight:500;
+	font-size:13px;
+text-align:center;
+top:-180px;
+left:220px;
+
+}
+span{
+	position:relative;
+top:5px;
+margin-right:20px;}
+
+ .pop-content a img{
+	display:inline-block;
+	margin-right:10px;
+	
+	position:relative;
+	top:10px;
+}
+.post a img:first-child{
+border-radius:0;
+width:20px;}
+.clip{
+	margin-left:110px;
+	width:50px;
+	height:50px;
+	  background-color:hsl(217, 19%, 35%);
+clip-path: polygon(52% 25px, 88.00% 48.00%, 54% 94%, 8px 50%);}
