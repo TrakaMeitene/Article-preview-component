@@ -191,13 +191,13 @@ display:none;}
 	top:-45px;
 	width:32px;
 	height:32px;
-	background-color: hsl(217, 19%, 35%);
-		color:white;
+		background-color: hsl(210, 46%, 95%);
+	color:hsl(212, 23%, 69%);
 }
 
 		.post i:hover{
-		background-color: hsl(210, 46%, 95%);
-	color:hsl(212, 23%, 69%);
+		background-color:hsl(214, 17%, 51%);
+	color:white;
 	}
 
 .post img:first-child{
