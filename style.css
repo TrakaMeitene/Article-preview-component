@@ -164,12 +164,11 @@ border-bottom-right-radius:10px;
 .pop-content{
 display:block;
 left:-30px;
-top:-50px;
+top:-60px;
 width:90vw;
 border-top-right-radius:0;
 border-top-left-radius:0;
-border-bottom-left-radius:10px;
-border-bottom-right-radius:10px;
+
 padding-left:20px;
 }
 .avatar{
@@ -180,7 +179,8 @@ width: 90vw;
 margin-top: -10px;
 margin-left: -30px;
 padding: 0px 0px 20px 20px;
-
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
 }
 .clip{
 display:none;}
@@ -188,9 +188,17 @@ display:none;}
 .post i{
 	width:auto;
 	z-index:1;
-	top:-40px;
-	
+	top:-45px;
+	width:32px;
+	height:32px;
+	background-color: hsl(210, 46%, 95%);
+	color:hsl(212, 23%, 69%);
 }
+
+		.post i:hover{
+		background-color: hsl(217, 19%, 35%);
+		color:white;
+	}
 
 .post img:first-child{
 	border-radius:50px;
