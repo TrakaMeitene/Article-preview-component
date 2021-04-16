@@ -126,6 +126,8 @@ width:20px;}
 	  background-color:hsl(217, 19%, 35%);
 clip-path: polygon(52% 25px, 88.00% 48.00%, 54% 94%, 8px 50%);}
 
+
+
 @media(min-width:1000px){
 	.flexbox{
 	width:75%;
