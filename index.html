@@ -23,7 +23,7 @@
   <div class="avatar"><img alt="avatar" src="avatar-michelle.jpg"><strong>Michelle Appleton</strong> 
   <p>  28 Jun 2020</p></div>
   
-<div id="myBtn" onclick="myFunction()" ><i class="fas fa-share fa-lg"></i></div>
+<div id="myBtn" onclick="myFunction()" ><i id ="share" class="fas fa-share fa-lg"></i></div>
 <div id="pop" class="pop-content"><span>share</span>
 <a href="#"><img alt="Facebook" src="icon-facebook.svg"></a>
 <a href="#"><img alt="Twitter" src="icon-twitter.svg"></a>
@@ -37,11 +37,16 @@
  </div>
   <script>
 function myFunction() {
-  var x = document.getElementById("pop");
+  let x = document.getElementById("pop");
+  const share = document.getElementById("share")
   if (x.style.display === "none") {
     x.style.display = "block";
+	share.style.backgroundColor = " hsl(214, 17%, 51%)";
+	share.style.color = "hsl(0, 0%, 100%)";
   } else {
     x.style.display = "none";
+	share.style.backgroundColor = " hsl(210, 46%, 95%)";
+	share.style.color = "hsl(214, 17%, 51%)";
   }
 }
 
